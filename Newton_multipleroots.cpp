@@ -37,18 +37,8 @@ double newtonRaphson(double initialGuess, double a, double b, double c, double d
 int main() {
     double a, b, c, d;
     
-    // Ask user for the coefficients of the cubic polynomial
-    printf("Enter the coefficient a for x^3: ");
-    scanf("%lf", &a);
-    
-    printf("Enter the coefficient b for x^2: ");
-    scanf("%lf", &b);
-    
-    printf("Enter the coefficient c for x: ");
-    scanf("%lf", &c);
-    
-    printf("Enter the constant d: ");
-    scanf("%lf", &d);
+    printf("Enter the coefficients a3, a2, a1, and a0:\n");
+    scanf("%d%d%d%d", &a, &b, &c, &d);
 
     double tolerance = 1e-6;
     int maxIterations = 100;
