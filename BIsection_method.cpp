@@ -44,9 +44,6 @@ void bisectionMethod(float x0, float x1, float tol) {
 int main() {
     float x0, x1, tol;
 
-    /* Clear the console (Optional, based on the environment) */
-    system("clear");
-
     printf("Bisection Method for Solving Non-Linear Equations\n");
 
     /* Input loop for initial guesses */
